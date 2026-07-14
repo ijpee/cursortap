@@ -1,7 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <path
-    fill="#FF6C37"
-    fill-rule="evenodd"
-    d="M16 5l8.23 4.75v9.5L16 24l-8.23-4.75v-9.5L16 5zm-5.85 6.38h11.7L16.07 22.66 16 14.2z"
-  />
+  <!-- Large centered drum, transparent bg -->
+  <ellipse cx="16" cy="23.5" rx="14.5" ry="5.2" fill="#FF6C37"/>
+  <path d="M1.5 11.5v12c0 2.9 6.5 5.2 14.5 5.2s14.5-2.3 14.5-5.2v-12z" fill="#FF6C37"/>
+  <ellipse cx="16" cy="11.5" rx="14.5" ry="6.2" fill="#FF6C37"/>
+  <ellipse cx="16" cy="11.5" rx="10.2" ry="4.1" fill="none" stroke="#14120B" stroke-width="1.6" stroke-opacity="0.22"/>
+  <g stroke="#14120B" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round">
+    <path d="M5 14.5v8.5M11 15.5v9.5M21 15.5v9.5M27 14.5v8.5"/>
+  </g>
 </svg>
