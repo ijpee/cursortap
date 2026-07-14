@@ -1,5 +1,7 @@
 import './styles.css';
+import './animations';
 import { bindInput } from './keys/input';
+import { resizeAnimations } from './animations';
 import { startRenderLoop } from './visuals/render';
 
 const el = document.getElementById('c');
@@ -16,6 +18,7 @@ if (!ctx) {
 function resize(): void {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
+  resizeAnimations(canvas.width, canvas.height);
 }
 
 resize();
